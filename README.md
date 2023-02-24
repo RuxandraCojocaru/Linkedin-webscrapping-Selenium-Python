@@ -41,7 +41,7 @@ Automatically collect data from the Linkedin job-search page. The wanted data co
 + <b>NoSuchElementException</b>:  This means a job result is missing some data that I want. In this case I will skip over the result. In the console 'Data not complete, skipped.' gets printed.
 + <b>StaleElementReferenceException</b>:  This happens when a company's name is also a link, which throws the driver off track, following the link. There were only a few instances of this occurring. To solve this, I sent the driver back(), retook hold of the job results elements, and continued parsing the list starting with the one  next in line.
 ![image](https://user-images.githubusercontent.com/101098099/221198300-a2de1d40-15c3-4086-9a1a-475c00d4f531.png)
-![rsz_221198300-a2de1d40-15c3-4086-9a1a-475c00d4f531](https://user-images.githubusercontent.com/101098099/221215113-3cb863ae-3141-4c12-a4c6-4bf468f466e2.png)
+
 
 
 #### 6. Going to the next page
@@ -51,7 +51,12 @@ Automatically collect data from the Linkedin job-search page. The wanted data co
 
 ![image](https://user-images.githubusercontent.com/101098099/221200802-353e8ceb-16bd-4462-bbbc-7c6c2fe8409e.png)
 ![Untitled 4](https://user-images.githubusercontent.com/101098099/221200874-ca176d26-34c3-4b2c-9b64-235dc8aec1d2.gif)
-      
+<p align="center">
+  <img width="600" height="200" src="![image](https://user-images.githubusercontent.com/101098099/221200802-353e8ceb-16bd-4462-bbbc-7c6c2fe8409e.png)">
+</p>
+<p align="center">
+  <img width="600" height="200" src="![Untitled 4](https://user-images.githubusercontent.com/101098099/221200874-ca176d26-34c3-4b2c-9b64-235dc8aec1d2.gif)">
+</p>
 
 ## RESULTS:
 Collected 842 txt files with job descriptions, and the remaining variables were put in data.csv. The row number corresponds with the name of the txt file. This way, it will be easier to analyse the data in a later project.
