@@ -55,9 +55,6 @@ Automatically collect data from the Linkedin job-search page. The wanted data co
 + If the page I am on is eighter in the first 8 or the last 8, simply click() on the corresponding button
 + If the page is numbered between 9-32, click the sixth button
 
-<p align="center">
-  <img  src="https://user-images.githubusercontent.com/101098099/221200802-353e8ceb-16bd-4462-bbbc-7c6c2fe8409e.png" alt="img">
-</p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/101098099/221200874-ca176d26-34c3-4b2c-9b64-235dc8aec1d2.gif" alt="animated">
