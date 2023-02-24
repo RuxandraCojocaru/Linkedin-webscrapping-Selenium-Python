@@ -48,15 +48,32 @@ while page < 40:
             time.sleep(1)
 
             role = driver.find_element_by_class_name("jobs-unified-top-card__job-title").text
-
+            job_description = driver.find_element_by_id("job-details").text.replace(",", "")
             company = driver.find_element_by_class_name("jobs-unified-top-card__company-name").text.replace(",", "")
             location = driver.find_element_by_class_name("jobs-unified-top-card__bullet").text.replace(",", "")
             workplace_type = driver.find_element_by_class_name("jobs-unified-top-card__workplace-type").text.replace(",", "")
-            status = driver.find_element_by_class_name("jobs-unified-top-card__job-insight span").text.replace(",", "")
-            employees = driver.find_elements_by_class_name("jobs-unified-top-card__job-insight span")[1].text.replace(",", "")
-            job_description = driver.find_element_by_id("job-details").text.replace(",", "")
+            duration_level = driver.find_element_by_class_name("jobs-unified-top-card__job-insight span").text.replace(",", "").split( '·')
+            employees_industry = driver.find_elements_by_class_name("jobs-unified-top-card__job-insight span")[1].text.replace(",", "").split('·')
 
-            info = [role, company, location, workplace_type, status, employees, job_description]
+            #Formatting  time_level and employees_industry
+            if len(duration_level) == 2:
+                duration, level = duration_level[0][:-1], duration_level[1][1:]
+            else:
+                if 'time' in duration_level[0]:
+                    duration, level = duration_level[0], ''
+                else:
+                    duration, level = '', duration_level[0]
+
+            if len(employees_industry) == 2:
+                employees, industry = employees_industry[0][:-1], employees_industry[1][1:]
+            else:
+                if any([char.isdigit() for char in employees_industry[0]]):
+                    employees, industry = employees_industry[0], ''
+                else:
+                    employees, industry = '', employees_industry[0]
+
+            #Translating into english
+            info = [role, company, location, workplace_type, duration, level, employees, industry, job_description]
             info_en = [translate_if_needed(v) for v in info]
             print(str(page+1) + " " + str(index) + " ", info_en)
 
