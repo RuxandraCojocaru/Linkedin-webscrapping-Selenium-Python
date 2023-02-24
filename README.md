@@ -40,8 +40,9 @@ Automatically collect data from the Linkedin job-search page. The wanted data co
 #### 5. Taking care of Exceptions:
 + <b>NoSuchElementException</b>:  This means a job result is missing some data that I want. In this case I will skip over the result. In the console 'Data not complete, skipped.' gets printed.
 + <b>StaleElementReferenceException</b>:  This happens when a company's name is also a link, which throws the driver off track, following the link. There were only a few instances of this occurring. To solve this, I sent the driver back(), retook hold of the job results elements, and continued parsing the list starting with the one  next in line.
-![image](https://user-images.githubusercontent.com/101098099/221198300-a2de1d40-15c3-4086-9a1a-475c00d4f531.png)
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/101098099/221198300-a2de1d40-15c3-4086-9a1a-475c00d4f531.png" >
+</p>
 
 
 #### 6. Going to the next page
@@ -49,10 +50,8 @@ Automatically collect data from the Linkedin job-search page. The wanted data co
 + If the page I am on is eighter in the first 8 or the last 8, simply click() on the corresponding button
 + If the page is numbered between 9-32, click the sixth button
 
-![image](https://user-images.githubusercontent.com/101098099/221200802-353e8ceb-16bd-4462-bbbc-7c6c2fe8409e.png)
-![Untitled 4](https://user-images.githubusercontent.com/101098099/221200874-ca176d26-34c3-4b2c-9b64-235dc8aec1d2.gif)
 <p align="center">
-  <img  src="https://user-images.githubusercontent.com/101098099/221200802-353e8ceb-16bd-4462-bbbc-7c6c2fe8409e.png" alt="animated">
+  <img  src="https://user-images.githubusercontent.com/101098099/221200802-353e8ceb-16bd-4462-bbbc-7c6c2fe8409e.png" alt="img">
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/101098099/221200874-ca176d26-34c3-4b2c-9b64-235dc8aec1d2.gif" alt="animated">
