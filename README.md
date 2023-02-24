@@ -27,6 +27,7 @@ Automatically collect data from the Linkedin job-search page. The wanted data co
   <img src="https://user-images.githubusercontent.com/101098099/221193613-ade4b08f-9ac7-4861-83d5-c6e1acb70210.gif">
 </p>
 
+
 #### 4. For all pages available (maximum 40), do the following: 
 + search by class for all the elements on page that contain job results
 + for each result, scroll a little in the list and click on the the job name
@@ -35,7 +36,6 @@ Automatically collect data from the Linkedin job-search page. The wanted data co
 + write job description into txt file
 + write the remaining data into data.csv
 
-https://user-images.githubusercontent.com/101098099/221198300-a2de1d40-15c3-4086-9a1a-475c00d4f531.png
 <p align="center">
   <img src="https://user-images.githubusercontent.com/101098099/221197152-0d64e223-ef16-47ae-be5d-aff4e3eec422.gif">
 </p>
@@ -64,6 +64,7 @@ https://user-images.githubusercontent.com/101098099/221198300-a2de1d40-15c3-4086
 
 ## RESULTS:
 Collected 842 txt files with job descriptions, and the remaining variables were put in data.csv. The row number corresponds with the name of the txt file. This way, it will be easier to analyse the data in a later project.
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/101098099/221193613-ade4b08f-9ac7-4861-83d5-c6e1acb70210.gif">
 </p>
