@@ -42,6 +42,8 @@ Automatically collect data from the Linkedin job-search page. The wanted data co
 + <b>StaleElementReferenceException</b>:  This happens when a company's name is also a link, which throws the driver off track, following the link. There were only a few instances of this occurring. To solve this, I sent the driver back(), retook hold of the job results elements, and continued parsing the list starting with the one  next in line.
 ![image](https://user-images.githubusercontent.com/101098099/221198300-a2de1d40-15c3-4086-9a1a-475c00d4f531.png)
 ![image](https://user-images.githubusercontent.com/101098099/221214312-486334d1-30bb-4f6a-b522-aa8343d7da2d.png)
+![image](https://user-images.githubusercontent.com/101098099/221214954-cc005008-a26c-425f-86fe-e1ea7e095320.png)
+![rsz_221198300-a2de1d40-15c3-4086-9a1a-475c00d4f531](https://user-images.githubusercontent.com/101098099/221215113-3cb863ae-3141-4c12-a4c6-4bf468f466e2.png)
 
 
 #### 6. Going to the next page
