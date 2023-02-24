@@ -68,7 +68,7 @@ Collected 842 txt files with job descriptions, and the remaining variables were 
   <img src="https://user-images.githubusercontent.com/101098099/221276632-1361de8c-3da9-4c5d-8f95-4345fabd3970.png">
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/101098099/221225186-3cb3f0ff-5662-4c2e-8283-73a66039c7b9.png">
+  <img src="https://user-images.githubusercontent.com/101098099/221276946-8ef146e4-c71e-4263-a387-34edd0a913e7.png">
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/101098099/221276246-5ed50aab-bf33-49d3-b998-9a6c7c55e8fc.png">
