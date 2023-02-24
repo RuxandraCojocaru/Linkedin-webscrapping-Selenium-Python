@@ -65,7 +65,7 @@ Automatically collect data from the Linkedin job-search page. The wanted data co
 Collected 842 txt files with job descriptions, and the remaining variables were put in data.csv. The row number corresponds with the name of the txt file. This way, it will be easier to analyse the data in a later project.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/101098099/221224597-563bd319-39ca-4eef-9ec8-ca62fe75d704.png">
+  <img src="https://user-images.githubusercontent.com/101098099/221276632-1361de8c-3da9-4c5d-8f95-4345fabd3970.png">
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/101098099/221225186-3cb3f0ff-5662-4c2e-8283-73a66039c7b9.png">
