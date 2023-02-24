@@ -52,10 +52,10 @@ Automatically collect data from the Linkedin job-search page. The wanted data co
 ![image](https://user-images.githubusercontent.com/101098099/221200802-353e8ceb-16bd-4462-bbbc-7c6c2fe8409e.png)
 ![Untitled 4](https://user-images.githubusercontent.com/101098099/221200874-ca176d26-34c3-4b2c-9b64-235dc8aec1d2.gif)
 <p align="center">
-  <img width="600" height="200" src="![image](https://user-images.githubusercontent.com/101098099/221200802-353e8ceb-16bd-4462-bbbc-7c6c2fe8409e.png)">
+  <img  src="![image](https://user-images.githubusercontent.com/101098099/221200802-353e8ceb-16bd-4462-bbbc-7c6c2fe8409e.png)">
 </p>
 <p align="center">
-  <img width="600" height="200" src="![Untitled 4](https://user-images.githubusercontent.com/101098099/221200874-ca176d26-34c3-4b2c-9b64-235dc8aec1d2.gif)">
+  <img src="![Untitled 4](https://user-images.githubusercontent.com/101098099/221200874-ca176d26-34c3-4b2c-9b64-235dc8aec1d2.gif)">
 </p>
 
 ## RESULTS:
